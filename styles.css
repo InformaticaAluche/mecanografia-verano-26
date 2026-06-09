@@ -1,0 +1,191 @@
+/* ===========================
+   ESTILOS GENERALES
+=========================== */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7;
+  color: #333;
+}
+
+h1, h2, h3 {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+/* ===========================
+   CABECERA
+=========================== */
+
+header {
+  background: linear-gradient(180deg, #4aa3ff, #1e6fd9);
+  color: white;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+header p {
+  margin: 5px 0;
+  font-size: 18px;
+}
+
+/* ===========================
+   ICONOS TELÉFONO + WHATSAPP
+=========================== */
+
+.botones-contacto-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  margin-top: 15px;
+}
+
+.icono-circular {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.icono-telefono {
+  background-color: #003366;
+}
+
+.icono-whatsapp {
+  background-color: #25d366;
+}
+
+.icono-circular svg {
+  width: 22px;
+  height: 22px;
+  fill: white;
+}
+
+/* ===========================
+   TARJETAS DE CURSOS
+=========================== */
+
+.tarjetas {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 20px;
+  padding: 30px 20px;
+}
+
+.tarjeta {
+  background: white;
+  border-radius: 12px;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.tarjeta img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.precio {
+  font-size: 20px;
+  font-weight: bold;
+  color: #1e6fd9;
+}
+
+/* ===========================
+   FORMULARIO
+=========================== */
+
+.formulario {
+  background: #ffffff;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+form {
+  max-width: 400px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input, select {
+  padding: 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+button {
+  background-color: #1e6fd9;
+  color: white;
+  padding: 14px;
+  border: none;
+  border-radius: 6px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #155bb5;
+}
+
+.check-legal {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+}
+
+/* ===========================
+   FOOTER
+=========================== */
+
+footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 25px 20px;
+  margin-top: 40px;
+}
+
+.logo-footer img {
+  width: 70px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.footer-text a {
+  color: #4aa3ff;
+  text-decoration: none;
+}
+
+.footer-text a:hover {
+  text-decoration: underline;
+}
+
+/* ===========================
+   RESPONSIVE
+=========================== */
+
+@media (max-width: 480px) {
+  .botones-contacto-header {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  header p {
+    font-size: 16px;
+  }
+
+  .precio {
+    font-size: 18px;
+  }
+}
