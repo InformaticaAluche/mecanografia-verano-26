@@ -352,5 +352,42 @@ footer {
     border-radius: 12px;
     padding: 25px;
 }
+/* Bloque extra de información */
+.seccion-extra {
+    background: #ffffff;
+    padding: 40px 25px;
+    border-radius: 12px;
+    margin: 40px auto;
+    max-width: 900px;
+}
+
+.extra-bloque h2 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.extra-bloque h3 {
+    margin-top: 30px;
+    color: #1e6fd9;
+}
+
+.extra-bloque ul {
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.boton-extra {
+    display: inline-block;
+    background: #1e6fd9;
+    color: white;
+    padding: 10px 18px;
+    border-radius: 8px;
+    text-decoration: none;
+    margin: 10px 0 20px 0;
+}
+
+.boton-extra:hover {
+    background: #155bb5;
+}
 
 
