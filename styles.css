@@ -74,9 +74,15 @@ header p {
 
 .tarjetas {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* 🔹 Evita tarjetas gigantes */
+  grid-template-columns: 1fr;   /* 🔹 En móvil: UNA por fila */
   gap: 20px;
   padding: 30px 20px;
+}
+
+@media (min-width: 600px) {
+  .tarjetas {
+    grid-template-columns: repeat(2, 1fr); /* 🔹 En PC: DOS por fila */
+  }
 }
 
 .tarjeta {
@@ -87,17 +93,16 @@ header p {
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
-/* 🔹 IMÁGENES CORREGIDAS */
+/* 🔹 IMÁGENES RECTANGULARES Y MÁS GRANDES */
 .tarjeta img {
   width: 100%;
-  max-width: 260px;   /* 🔹 Más amplias */
-  height: 150px;      /* 🔹 Rectangulares horizontales */
+  max-width: 300px;   /* 🔹 Más amplias */
+  height: 170px;      /* 🔹 Rectangulares horizontales */
   object-fit: cover;  /* 🔹 Rellenan sin deformarse */
   border-radius: 10px;
   display: block;
   margin: 0 auto 12px;
 }
-
 
 .precio {
   font-size: 20px;
