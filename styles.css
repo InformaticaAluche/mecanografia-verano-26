@@ -221,5 +221,34 @@ footer {
     object-fit: cover;
     border-radius: 10px;
 }
+/* LIMITAR ANCHO EN PC */
+.contenedor {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* EVITAR QUE LAS TARJETAS SE ESTIREN A LO ANCHO */
+.tarjetas {
+    display: block;        /* IMPORTANTE: evita que se expandan en horizontal */
+}
+
+/* TARJETAS INDIVIDUALES */
+.tarjeta {
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 25px;
+    border-radius: 12px;
+    padding: 20px;
+}
+
+/* IMÁGENES */
+.tarjeta img {
+    width: 100%;
+    height: auto;
+    max-height: 260px;
+    object-fit: cover;
+    border-radius: 10px;
+}
 
 }
