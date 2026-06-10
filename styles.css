@@ -74,7 +74,7 @@ header p {
 
 .tarjetas {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* 🔹 Evita tarjetas gigantes */
   gap: 20px;
   padding: 30px 20px;
 }
@@ -87,15 +87,16 @@ header p {
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
+/* 🔹 IMÁGENES CORREGIDAS */
 .tarjeta img {
   width: 100%;
-  max-width: 160px;
-  height: 160px;       /* 🔹 Fuerza cuadrado perfecto */
-  object-fit: cover;
-  border-radius: 10px;
+  max-width: 120px;   /* 🔹 Tamaño perfecto en móvil */
+  height: auto;       /* 🔹 Mantiene proporción */
+  display: block;
   margin: 0 auto 12px;
+  border-radius: 10px;
+  object-fit: contain; /* 🔹 No se recortan */
 }
-
 
 .precio {
   font-size: 20px;
