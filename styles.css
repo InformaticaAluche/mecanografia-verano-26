@@ -389,5 +389,40 @@ footer {
 .boton-extra:hover {
     background: #155bb5;
 }
+/* Bloques extra */
+.extra-bloque {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 30px 20px;
+}
+
+.extra-bloque h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.extra-bloque h3 {
+    margin-top: 25px;
+    color: #1e6fd9;
+}
+
+.extra-bloque ul {
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.boton-extra {
+    display: inline-block;
+    background: #1e6fd9;
+    color: white;
+    padding: 10px 18px;
+    border-radius: 8px;
+    text-decoration: none;
+    margin: 10px 0 20px 0;
+}
+
+.boton-extra:hover {
+    background: #155bb5;
+}
 
 
