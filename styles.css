@@ -425,4 +425,9 @@ footer {
     background: #155bb5;
 }
 
+body {
+    background: #0a1a33; /* azul oscuro elegante */
+    margin: 0;
+    padding: 0;
+}
 
