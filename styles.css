@@ -96,9 +96,9 @@ header p {
 /* 🔹 IMÁGENES RECTANGULARES Y MÁS GRANDES */
 .tarjeta img {
   width: 100%;
-  max-width: 300px;   /* 🔹 Más amplias */
-  height: 170px;      /* 🔹 Rectangulares horizontales */
-  object-fit: cover;  /* 🔹 Rellenan sin deformarse */
+  max-width: 100%;
+  height: 180px;
+  object-fit: cover;
   border-radius: 10px;
   display: block;
   margin: 0 auto 12px;
