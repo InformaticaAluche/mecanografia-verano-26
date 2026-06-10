@@ -89,8 +89,13 @@ header p {
 
 .tarjeta img {
   width: 100%;
+  max-width: 160px;
+  height: 160px;       /* 🔹 Fuerza cuadrado perfecto */
+  object-fit: cover;
   border-radius: 10px;
+  margin: 0 auto 12px;
 }
+
 
 .precio {
   font-size: 20px;
