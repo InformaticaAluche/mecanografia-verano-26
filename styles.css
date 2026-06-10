@@ -304,5 +304,33 @@ footer {
     border-radius: 12px;
     margin-bottom: 30px;
 }
+/* ============================
+   COLORES DE SECCIÓN (CORREGIDO)
+============================ */
+
+/* ⭐ Sección 1 — Tarjetas */
+.seccion-color-1 {
+    background-color: #e3f0ff; /* azul suave */
+    padding: 30px 20px;
+    border-radius: 12px;
+    margin-bottom: 30px;
+}
+
+/* ⭐ Sección 2 — Formulario */
+.seccion-color-2 {
+    background-color: #e8fbe8; /* verde suave */
+    padding: 30px 20px;
+    border-radius: 12px;
+    margin-bottom: 30px;
+}
+
+/* ⭐ Sección 3 — Beneficios (mismo color que sección 1) */
+.seccion-color-1 .beneficios-minimal {
+    background-color: #e3f0ff; /* azul suave */
+    border-left: none;         /* quitamos borde azul para que no moleste */
+    padding: 20px;
+    border-radius: 12px;
+}
+
 
 
