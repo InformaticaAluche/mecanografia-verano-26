@@ -285,4 +285,24 @@ footer {
     line-height: 1.45;
     font-size: 0.95rem;
 }
+/* ============================
+   COLORES DE SECCIÓN
+============================ */
+
+/* ⭐ Sección 1 y 3 — Color azul suave */
+.seccion-color-1 {
+    background: #e8f1ff;   /* azul muy suave */
+    padding: 30px 20px;
+    border-radius: 12px;
+    margin-bottom: 30px;
+}
+
+/* ⭐ Sección 2 — Color verde suave */
+.seccion-color-2 {
+    background: #e9f9ef;   /* verde muy suave */
+    padding: 30px 20px;
+    border-radius: 12px;
+    margin-bottom: 30px;
+}
+
 
