@@ -90,13 +90,14 @@ header p {
 /* 🔹 IMÁGENES CORREGIDAS */
 .tarjeta img {
   width: 100%;
-  max-width: 120px;   /* 🔹 Tamaño perfecto en móvil */
-  height: auto;       /* 🔹 Mantiene proporción */
+  max-width: 260px;   /* 🔹 Más amplias */
+  height: 150px;      /* 🔹 Rectangulares horizontales */
+  object-fit: cover;  /* 🔹 Rellenan sin deformarse */
+  border-radius: 10px;
   display: block;
   margin: 0 auto 12px;
-  border-radius: 10px;
-  object-fit: contain; /* 🔹 No se recortan */
 }
+
 
 .precio {
   font-size: 20px;
