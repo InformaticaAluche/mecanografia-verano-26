@@ -210,4 +210,32 @@ footer {
   .precio {
     font-size: 18px;
   }
+   /* ============================
+   BENEFICIOS (versión móvil)
+   ============================ */
+
+.beneficios-minimal {
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.beneficios-minimal h2 {
+    text-align: center;
+    font-size: 1.4rem;
+    margin-bottom: 18px;
+    color: #333;
+}
+
+.beneficios-minimal p {
+    font-size: 1rem;
+    line-height: 1.45;
+    margin-bottom: 18px;
+    color: #444;
+}
+
+.beneficios-minimal strong {
+    color: #000;
+}
+
 }
