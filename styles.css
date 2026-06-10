@@ -332,5 +332,25 @@ footer {
     border-radius: 12px;
 }
 
+/* Quitar borde azul */
+.beneficios-minimal {
+    border-left: none !important;
+}
+
+/* Centrar beneficios en PC */
+.seccion-color-1 {
+    display: flex;
+    justify-content: center;
+}
+
+/* Limitar ancho para que se vea centrado */
+.seccion-color-1 .beneficios-minimal {
+    width: 100%;
+    max-width: 700px;   /* ⭐ AJUSTA si quieres más o menos ancho */
+    margin: 0 auto;
+    background: #e8f1ff; /* mismo color que la sección */
+    border-radius: 12px;
+    padding: 25px;
+}
 
 
