@@ -248,3 +248,41 @@ footer {
     line-height: 1.45;
     font-size: 0.95rem;
 }
+/* ============================
+   BENEFICIOS (fondo suave + borde azul)
+=========================== */
+
+.beneficios-minimal {
+    padding: 20px 22px;
+    max-width: 900px;        /* alineado con el resto de la web */
+    margin: 25px auto;
+    background: #f7f7f7;     /* fondo suave */
+    border-radius: 12px;
+    border-left: 6px solid #1e6fd9;   /* ⭐ borde azul */
+}
+
+.beneficios-minimal h2 {
+    text-align: center;
+    font-size: 1.4rem;
+    margin-bottom: 18px;
+    color: #333;
+}
+
+.beneficios-minimal p {
+    margin-bottom: 18px;
+}
+
+.beneficios-minimal strong {
+    font-size: 1.05rem;
+    color: #000;
+    font-family: inherit, "Segoe UI Emoji", "Apple Color Emoji", "Noto Color Emoji";
+}
+
+.beneficios-minimal .subtexto {
+    display: block;
+    margin-left: 14px;
+    color: #444;
+    line-height: 1.45;
+    font-size: 0.95rem;
+}
+
