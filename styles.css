@@ -430,4 +430,47 @@ body {
     margin: 0;
     padding: 0;
 }
+/* 📱 Ajustes para móvil */
+@media (max-width: 768px) {
+
+    /* Reducir padding de TODAS las secciones de color */
+    .seccion-color-1,
+    .seccion-color-2 {
+        padding: 20px 15px;
+        margin-bottom: 20px;
+    }
+
+    /* Reducir padding interno de los bloques */
+    .extra-bloque,
+    .beneficios-minimal,
+    .formulario,
+    .tarjetas {
+        padding: 10px 5px;
+    }
+
+    /* Tarjetas más compactas */
+    .tarjeta {
+        padding: 10px;
+        margin-bottom: 15px;
+    }
+
+    /* Botones más grandes y cómodos */
+    .boton-extra,
+    .formulario button {
+        padding: 12px 16px;
+        font-size: 1rem;
+    }
+
+    /* Títulos más compactos */
+    h2 {
+        font-size: 1.4rem;
+        margin-bottom: 15px;
+    }
+
+    h3 {
+        font-size: 1.1rem;
+        margin-top: 20px;
+    }
+}
+
 
