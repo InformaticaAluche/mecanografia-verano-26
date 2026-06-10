@@ -237,5 +237,40 @@ footer {
 .beneficios-minimal strong {
     color: #000;
 }
+/* ============================
+   BENEFICIOS (fondo suave)
+   ============================ */
+
+.fondo-suave {
+    background: #f7f7f7;        /* ⭐ Fondo suave gris claro */
+    border-radius: 12px;        /* Bordes redondeados */
+    padding: 22px;
+    margin: 25px auto;
+    max-width: 650px;
+}
+
+.beneficios-minimal h2 {
+    text-align: center;
+    font-size: 1.4rem;
+    margin-bottom: 18px;
+    color: #333;
+}
+
+.beneficios-minimal p {
+    margin-bottom: 18px;
+}
+
+.beneficios-minimal strong {
+    font-size: 1.05rem;
+    color: #000;
+}
+
+.beneficios-minimal .subtexto {
+    display: block;
+    margin-left: 14px;   /* ⭐ Sangría suave */
+    color: #444;
+    line-height: 1.45;
+    font-size: 0.95rem;
+}
 
 }
