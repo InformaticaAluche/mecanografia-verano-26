@@ -291,3 +291,16 @@ footer {
   display: block;
 }
 
+/* ============================
+   HORARIO + ASISTENCIA (FORZAR VISIBILIDAD)
+============================ */
+.horario-titulo,
+.horario-detalle,
+.asistencia {
+  display: block !important;
+  color: #0a4a7a !important;
+  font-weight: 600;
+  margin-top: 6px;
+  margin-bottom: 6px;
+  font-size: 1rem;
+}
