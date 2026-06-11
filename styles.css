@@ -266,3 +266,28 @@ footer {
 .footer-text a:hover {
   text-decoration: underline;
 }
+
+/* ============================
+   HORARIO + ASISTENCIA (VISIBLES)
+============================ */
+.horario-titulo {
+  font-weight: 700;
+  color: #0a4a7a;
+  margin-top: 10px;
+  display: block;
+}
+
+.horario-detalle {
+  font-weight: 500;
+  color: #0a4a7a;
+  margin-bottom: 6px;
+  display: block;
+}
+
+.asistencia {
+  font-weight: 600;
+  color: #0a4a7a;
+  margin-bottom: 10px;
+  display: block;
+}
+
